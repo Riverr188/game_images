@@ -12,8 +12,7 @@ canvas {
     border: 1px solid #000;
 }
 body {
-    margin: 0; 
-    padding: 0; 
+    margin: auto; 
     background-image: url('background1.png'); 
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
