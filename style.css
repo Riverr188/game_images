@@ -14,7 +14,7 @@ canvas {
 body {
     margin: 0; 
     padding: 0; 
-    background-image: url('https://github.com/Riverr188/game_images/blob/main/background1.png'); 
+    background-image: url('https://github.com/Riverr188/game_images/blob/main/background1.png?raw=true'); 
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
     font-family: 'Arial', sans-serif; /* Set a default font */
