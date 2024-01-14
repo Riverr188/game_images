@@ -13,7 +13,7 @@ canvas {
 }
 body {
     margin: auto; 
-    background-image: url('background1.png'); 
+    background-image: url("background1.png"); 
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
     font-family: 'Arial', sans-serif; /* Set a default font */
