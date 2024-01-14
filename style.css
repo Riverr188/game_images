@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+canvas {
+    display: block;
+    border: 1px solid #000;
+}
+body {
+    margin: 0; 
+    padding: 0; 
+    background-image: url('https://github.com/Riverr188/game_images/blob/main/background1.png'); 
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: 'Arial', sans-serif; /* Set a default font */
+}
