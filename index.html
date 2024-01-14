@@ -12,15 +12,15 @@
     var game_canvas = document.getElementById("game");
     var game_context = game_canvas.getContext("2d");
     var swedishflagbg = new Image();
-    swedishflagbg.src = "resources/images/swedishflagbg.png";
+    swedishflagbg.src = "background1.png";
     swedishflagbg.onload = function() {
-      game_context.drawImage(swedishflagbg, 0, 0);
+      game_context.drawImage(background1, 0, 0);
     }
     game_context.fillStyle = "#000000";
     game_context.font = "35px Ubuntu";
     game_context.textAlign = "center";
-    game_context.textBaseline = "top";
-    game_context.fillText("How Well Do You Know Your Swedish?", 320, 0);
+    game_context.textBaseline = "center";
+    game_context.fillText("123?", 320, 0);
   </script>
 </body>
 </html>
