@@ -11,7 +11,14 @@ canvas {
     border: 1px solid #000;
     margin: auto; 
     background-image: url("background1.png"); 
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center; /* Center the background image */
-    font-family: 'Arial', sans-serif; /* Set a default font */
+    background-size: cover; 
+    background-position: center; 
+    font-family: 'Arial', sans-serif; 
+}
+#character {
+    width: 50px;
+    height: 50px;
+    background-image: url('character_sprite1new.png');
+    background-size: cover; 
+    position: absolute;
 }
