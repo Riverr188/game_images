@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="gameCanvas" width="480" height="270"></canvas>
+    <div class = "game_container">
+      <canvas id="gameCanvas" width="480" height="270"></canvas>
+    </div>
     <script>
     var game_canvas = document.getElementById("game");
     var game_context = game_canvas.getContext("2d");
@@ -22,5 +24,7 @@
     game_context.textBaseline = "center";
     game_context.fillText("123?", 320, 0);
   </script>
+  <div id ="character"></div>
+  <script src="script.js"></script>
 </body>
 </html>
